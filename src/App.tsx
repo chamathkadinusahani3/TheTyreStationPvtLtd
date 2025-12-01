@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { WhatsAppButton } from './components/WhatsAppButton';
@@ -10,7 +10,7 @@ import { BrandsPage } from './pages/BrandsPage';
 import { EventsPage } from './pages/EventsPage';
 import { ContactPage } from './pages/ContactPage';
 export function App() {
-  return <BrowserRouter>
+  return <HashRouter>
       <div className="min-h-screen bg-black flex flex-col">
         <Navbar />
         <main className="flex-1">
@@ -26,5 +26,5 @@ export function App() {
         <Footer />
         <WhatsAppButton />
       </div>
-    </BrowserRouter>;
+    </HashRouter>;
 }
