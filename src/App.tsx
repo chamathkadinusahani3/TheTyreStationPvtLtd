@@ -9,8 +9,11 @@ import { ServicesPage } from './pages/ServicesPage';
 import { BrandsPage } from './pages/BrandsPage';
 import { EventsPage } from './pages/EventsPage';
 import { ContactPage } from './pages/ContactPage';
+import ScrollToTop from "./components/ScrollToTop";
+
 export function App() {
   return <HashRouter>
+    <ScrollToTop />
       <div className="min-h-screen bg-black flex flex-col">
         <Navbar />
         <main className="flex-1">

@@ -218,7 +218,7 @@ export function Navbar() {
 >
   <PhoneIcon className="w-5 h-5" />
   <span>Call Hotline (+94713885885)</span>  {/* Display number */}
-</motion.a>vvv
+</motion.a>
 
                   <Link to="/contact" onClick={handleLinkClick}>
                     <motion.div

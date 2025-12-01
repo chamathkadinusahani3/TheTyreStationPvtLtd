@@ -122,11 +122,7 @@ export function HeroSection() {
             style={{ perspective: 1000 }}
           >
             <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/20 to-yellow-600/20 rounded-full blur-3xl" />
-            <img
-              src="https://images.unsplash.com/photo-1606016159991-7f3c0bb7d42f?w=400&q=80"
-              alt="Premium Tyre"
-              className="relative z-10 w-full h-full object-contain drop-shadow-[0_0_40px_rgba(255,215,0,0.4)]"
-            />
+            
           </motion.div>
         </motion.div>
       </div>
